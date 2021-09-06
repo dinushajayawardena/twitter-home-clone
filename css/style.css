@@ -47,6 +47,7 @@
     width: 31.5%;
     position: fixed;
     background-color:white;
+    z-index: 9999;
 }
 
 .header__heading{
@@ -142,4 +143,63 @@
     width: 9rem;
     height: 3rem;
     border-radius: 10rem;
+}
+
+
+/* 
+/*
+/* NewsFeed Styles */
+/* 
+*/
+
+.tweet-container{
+    margin-top: 0.5rem;
+    
+    
+}
+
+.tweet{
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 20px;
+}
+
+.tweet-newsfeed{
+    border-top: 1px solid lightgrey;
+    background-color: white;
+    height: 20rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.tweet:hover{
+    background-color: rgb(233, 233, 233, 0.3);
+    cursor: pointer;
+}
+
+
+.tweet__author-img{
+  /*   border: 1px solid red; */
+    padding: 10px;
+    height: 79%;
+}
+
+.author-img{
+    position: relative;
+    height: 3rem;
+    border-radius: 100%;
+}
+
+.tweet__article-container{
+    /* border: 1px solid blue; */
+    height: 85%;
+    width: 100%;
+}
+
+.tweet__controllers{
+   /*  border: 1px solid orange; */
+    margin: -35px 0 0 0;
+}
+
+.controllers{
+    margin-left: 17%;
 }
